@@ -68,7 +68,7 @@ def getSources():
         if addon.getSetting("browse_community") == "true":
             addDir('Community Files','community_files',16,icon,FANART,'','','','')
         if os.path.exists(source_file)==False:
-            sources = [{"url": "http://quranmp4.com/xbmc.xml", "fanart": "", "title": ""}]
+            sources = [{"url": "http://quranmp4.com/xbmc.php", "fanart": "", "title": ""}]
             if len(sources) > 1:
                 for i in sources:
                     ## for pre 1.0.8 sources
